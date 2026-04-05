@@ -1,0 +1,12 @@
+# GitHub OAuth App credentials
+# Create at: https://github.com/settings/applications/new
+GITHUB_CLIENT_ID=your_github_oauth_client_id
+GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
+
+# Cookie encryption key
+# Generate with: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+COOKIE_ENCRYPTION_KEY=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+
+# Google Maps API Key
+# Get from: https://console.cloud.google.com/apis/credentials
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key

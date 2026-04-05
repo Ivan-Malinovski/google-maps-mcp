@@ -1,0 +1,25 @@
+{
+  "name": "google-maps-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Maps MCP server on Cloudflare Workers with GitHub OAuth",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^0.4.0",
+    "agents": "^0.8.6",
+    "hono": "^4.12.9",
+    "octokit": "^5.0.5",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260317.1",
+    "typescript": "^5.7.3",
+    "wrangler": "^4.77.0"
+  }
+}
