@@ -23,7 +23,7 @@ type Props = {
 };
 
 const ALLOWED_USERNAMES = new Set<string>([
-  "Ivan-Malinovski", // <-- CHANGE THIS to your GitHub username
+  "your-github-username", // <-- CHANGE THIS to your GitHub username
 ]);
 
 // Tool annotations - all tools are read-only

@@ -20,8 +20,6 @@ A Model Context Protocol (MCP) server for Google Maps that runs on Cloudflare Wo
 | `maps_place_details` | Get details for a place |
 | `maps_directions` | Step-by-step directions |
 | `maps_distance_matrix` | Calculate distances between points |
-| `maps_elevation` | Get elevation data |
-| `maps_timezone` | Get timezone for coordinates |
 | `maps_weather` | Get weather data |
 | `maps_static_map` | Generate static map images |
 | `maps_batch_geocode` | Geocode multiple addresses |
@@ -40,8 +38,6 @@ A Model Context Protocol (MCP) server for Google Maps that runs on Cloudflare Wo
    - Places API (New)
    - Directions API
    - Distance Matrix API
-   - Elevation API
-   - Timezone API
    - Static Maps API
 
 Get your API key from [Google Cloud Console](https://console.cloud.google.com/apis/credentials).

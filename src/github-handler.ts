@@ -19,7 +19,7 @@ import type { Env } from "./index";
 type HandlerEnv = Env & { OAUTH_PROVIDER: OAuthHelpers };
 
 const ALLOWED_USERNAMES = new Set<string>([
-  "Ivan-Malinovski", // <-- CHANGE THIS to your GitHub username
+  "your-github-username", // <-- CHANGE THIS to your GitHub username
 ]);
 
 // cloudflare:workers env does not have typed secrets — cast them
